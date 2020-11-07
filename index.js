@@ -11,7 +11,7 @@ function newTask(title, description) {
     markCompleted: function() {
       this.complete = true;
     }
-  }
+  };
   return task;
 }
 
